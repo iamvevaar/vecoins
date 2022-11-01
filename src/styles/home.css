@@ -1,0 +1,21 @@
+.home{
+    width: 100%;
+    height: 1vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.heading{
+    font-size: 100px;
+    color: orange;
+    font-family: "Poppins", sans-serif;
+}
+
+.homeInfo{
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+    top: 50px;
+    text-align: justify;
+    padding-right: 50px;
+    font-size: 22px;
+}

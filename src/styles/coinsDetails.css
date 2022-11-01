@@ -1,0 +1,53 @@
+.mainData{
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    margin: 20px;
+    padding: 15px;
+    display: flex;
+    width: max-content;
+    border-radius: 5px;
+    gap: 10px;
+}
+
+.second{
+    display: flex;
+    flex-direction: row;
+    gap:25px;
+}
+
+.coinImage{
+    width: 140px;
+    height: 140px;
+}
+
+.coinInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.chartArea{
+    background-color: blanchedalmond;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.toggleDays{
+    margin: 20px;
+    padding: 15px;
+}
+
+
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+    transition: 0.5s;
+    transform: rotate(180deg);
+}
+

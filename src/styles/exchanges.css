@@ -1,0 +1,37 @@
+.exchanges{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr );
+    align-items: center;
+    gap: 20px;
+}
+
+
+.card{
+    grid-template-columns: 2fr 1fr;
+    border-radius: 10px;
+    margin: 15px;
+    background-color: beige;
+    padding: 15px;
+    display: grid;
+    transition: 0.5s;
+}
+
+.card:hover{
+    background-color: rgb(238, 238, 197);
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.info > span{
+    display: block;
+}
+
+.cardImg{
+    font-size: 102px;
+}
+
+.cardText{
+    font-family: 'Source Sans Pro', sans-serif;
+}
