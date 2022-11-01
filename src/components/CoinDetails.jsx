@@ -7,6 +7,7 @@ import { server } from "..";
 import { AiFillCaretDown } from "react-icons/ai";
 import { BsFillArrowUpSquareFill } from "react-icons/bs";
 import Chart from "../components/Chart";
+import ErrorComponent from "./ErrorComponent";
 
 const CoinDetails = () => {
   const [coin, setCoin] = useState({});
@@ -81,6 +82,8 @@ const CoinDetails = () => {
   
   const currencySymbol =
     currency === "inr" ? "₹" : currency === "eur" ? "€" : "$";
+
+    if (error) return <ErrorComponent />;
 
   return (
     <>
